@@ -57,6 +57,9 @@ Texte :
 
 # fallback regex extraction (retourne dict avec mêmes clés)
 def fallback_extract(texte: str) -> dict:
+
+
+    
     def find(pat):
         m = re.search(pat, texte, re.IGNORECASE)
         return m.group(1).strip() if m else ""
