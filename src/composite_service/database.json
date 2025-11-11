@@ -705,6 +705,232 @@
         ],
         "message": "✅ Approved"
       }
+    },
+    "REQ_20251110163018_9641": {
+      "text": "\nNom du Client: Jeanne Petit\nAdresse: 5 Rue des Fleurs, Paris\nEmail: jeanne.petit@email.com\nNuméro de Téléphone: +33600111222\nMontant du Prêt Demandé: 300000\nRevenu Mensuel: 2000\nDépenses Mensuelles: 1500\nDescription de la Propriété: Petit appartement ancien, nécessite quelques travaux, proche d'une route passante.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:30:18.627387",
+      "last_update": "2025-11-10T16:30:21.235605",
+      "result": {
+        "approved": false,
+        "message": "Internal error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>"
+      }
+    },
+    "REQ_20251110163105_9641": {
+      "text": "\nNom du Client: Jeanne Petit\nAdresse: 5 Rue des Fleurs, Paris\nEmail: jeanne.petit@email.com\nNuméro de Téléphone: +33600111222\nMontant du Prêt Demandé: 300000\nRevenu Mensuel: 2000\nDépenses Mensuelles: 1500\nDescription de la Propriété: Petit appartement ancien, nécessite quelques travaux, proche d'une route passante.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:31:05.200847",
+      "last_update": "2025-11-10T16:31:06.632068",
+      "result": {
+        "approved": false,
+        "message": "Internal error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>"
+      }
+    },
+    "REQ_20251110163231_8533": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:32:31.288140",
+      "last_update": "2025-11-10T16:32:32.749905",
+      "result": {
+        "approved": false,
+        "message": "Internal error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>"
+      }
+    },
+    "REQ_20251110163324_8533": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:33:24.764350",
+      "last_update": "2025-11-10T16:33:26.557324",
+      "result": {
+        "approved": false,
+        "message": "Internal error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>"
+      }
+    },
+    "REQ_20251110163438_8533": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:34:38.117837",
+      "last_update": "2025-11-10T16:34:39.626997",
+      "result": {
+        "approved": false,
+        "message": "Internal error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>"
+      }
+    },
+    "REQ_20251110163530_5754": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:35:30.457277",
+      "last_update": "2025-11-10T16:35:32.113051",
+      "result": {
+        "approved": false,
+        "message": "Internal error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>"
+      }
+    },
+    "REQ_20251110163619_5754": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:36:19.427379",
+      "last_update": "2025-11-10T16:36:20.752860",
+      "result": {
+        "approved": false,
+        "message": "Internal error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>"
+      }
+    },
+    "REQ_20251110163701_7744": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:37:01.466697",
+      "last_update": "2025-11-10T16:37:01.684670",
+      "result": {
+        "approved": false,
+        "interest_rate": 4.85,
+        "loan_amount": 200000.0,
+        "risk_details": {
+          "credit_score": 34.72,
+          "loan_amount": 200000.0,
+          "property_value": 1672338.55,
+          "loan_to_value": 0.12,
+          "debt_to_income": 0.31,
+          "monthly_savings": 5000.0,
+          "employment_stable": true,
+          "risk_score": 53.82,
+          "default_probability": 46.18
+        },
+        "reasons": [
+          "Credit score (34.72) is below the minimum threshold (40)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110163958_7744": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:39:58.006350",
+      "last_update": "2025-11-10T16:39:58.139832",
+      "result": {
+        "approved": false,
+        "interest_rate": 4.86,
+        "loan_amount": 200000.0,
+        "risk_details": {
+          "credit_score": 34.72,
+          "loan_amount": 200000.0,
+          "property_value": 1496559.88,
+          "loan_to_value": 0.13,
+          "debt_to_income": 0.31,
+          "monthly_savings": 5000.0,
+          "employment_stable": true,
+          "risk_score": 53.54,
+          "default_probability": 46.46
+        },
+        "reasons": [
+          "Credit score (34.72) is below the minimum threshold (40)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110164750_8010": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:47:50.497686",
+      "last_update": "2025-11-10T16:47:52.835406",
+      "result": {
+        "approved": false,
+        "message": "Internal error: notify() takes 2 positional arguments but 3 were given"
+      }
+    },
+    "REQ_20251110165146_8536": {
+      "text": "Nom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:51:46.140173",
+      "last_update": "2025-11-10T16:51:47.871685",
+      "result": {
+        "approved": false,
+        "message": "Internal error: notify() takes 2 positional arguments but 3 were given"
+      }
+    },
+    "REQ_20251110165314_8010": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:53:14.512518",
+      "last_update": "2025-11-10T16:53:16.260644",
+      "result": {
+        "approved": false,
+        "message": "Internal error: notify() takes 2 positional arguments but 3 were given"
+      }
+    },
+    "REQ_20251110165555_8010": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:55:55.332181",
+      "last_update": "2025-11-10T16:55:57.294827",
+      "result": {
+        "approved": false,
+        "message": "Internal error: notify() takes 2 positional arguments but 3 were given"
+      }
+    },
+    "REQ_20251110165644_8787": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:56:44.584860",
+      "last_update": "2025-11-10T16:56:44.761029",
+      "result": {
+        "approved": true,
+        "interest_rate": 4.7,
+        "loan_amount": 200000.0,
+        "risk_details": {
+          "credit_score": 45.79,
+          "loan_amount": 200000.0,
+          "property_value": 730442.59,
+          "loan_to_value": 0.27,
+          "debt_to_income": 0.31,
+          "monthly_savings": 5000.0,
+          "employment_stable": true,
+          "risk_score": 57.38,
+          "default_probability": 42.62
+        },
+        "reasons": [
+          "Applicant meets institutional risk and policy requirements."
+        ],
+        "recommendations": [
+          "Maintain your strong financial profile and responsible credit behavior."
+        ],
+        "message": "✅ Approved"
+      }
+    },
+    "REQ_20251110165854_8787": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T16:58:54.873650",
+      "last_update": "2025-11-10T16:58:55.108474",
+      "result": {
+        "approved": true,
+        "interest_rate": 4.6,
+        "loan_amount": 200000.0,
+        "risk_details": {
+          "credit_score": 45.79,
+          "loan_amount": 200000.0,
+          "property_value": 1382135.66,
+          "loan_to_value": 0.14,
+          "debt_to_income": 0.31,
+          "monthly_savings": 5000.0,
+          "employment_stable": true,
+          "risk_score": 59.96,
+          "default_probability": 40.04
+        },
+        "reasons": [
+          "Applicant meets institutional risk and policy requirements."
+        ],
+        "recommendations": [
+          "Maintain your strong financial profile and responsible credit behavior."
+        ],
+        "message": "✅ Approved"
+      }
     }
   }
 }

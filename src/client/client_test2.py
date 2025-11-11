@@ -1,6 +1,15 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import json
 import time
 from suds.client import Client
+import sys
+import io
+
+# Force UTF-8 encoding on Windows
+if sys.platform == "win32":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 # --- CONFIG --- #
 COMPOSITE = "http://127.0.0.1:8000/LoanEvaluationService?wsdl"
@@ -19,19 +28,27 @@ Description de la Propriété: Maison individuelle récente de 120m² avec jardi
 """
 
 # --- 1️⃣ Submit the request --- #
-print("📨 Submitting loan request (expected: rejection)...")
+print("📨 Submitting loan request...")
 response_json = client.service.submitRequest(loan_text)
-response = json.loads(response_json)
-
-if response.get("status") != "done":
-    print("❌ Error submitting request:", response.get("message"))
+try:
+    response = json.loads(response_json)
+except Exception as e:
+    print("❌ Failed to parse response as JSON:", e)
+    print("Raw response:", response_json)
     exit()
 
-request_id = response["request_id"]
-print(f"✅ Request submitted successfully! ID: {request_id}")
+print("DEBUG - Response from service:", response)
 
-# Note: The service already processed the decision synchronously,
-# but we simulate an asynchronous workflow by calling getResult separately.
+if response.get("status") != "done":
+    print("❌ Error submitting request:", response.get("message", "Unknown error"))
+    exit()
+
+request_id = response.get("request_id")
+if not request_id:
+    print("❌ No request_id returned! Response was:", response)
+    exit()
+
+print(f"✅ Request submitted successfully! ID: {request_id}")
 
 # --- 2️⃣ Wait (simulate delay if processing was async) --- #
 print("\n⏳ Waiting for processing to complete (simulated delay)...")
@@ -40,7 +57,12 @@ time.sleep(2)
 # --- 3️⃣ Fetch results using getResult --- #
 print("\n📥 Fetching result using getResult...")
 result_json = client.service.getResult(request_id)
-result = json.loads(result_json)
+try:
+    result = json.loads(result_json)
+except Exception as e:
+    print("❌ Failed to parse getResult response as JSON:", e)
+    print("Raw response:", result_json)
+    exit()
 
 if result.get("status") == "error":
     print(f"⚠️ {result.get('message')}")
@@ -48,7 +70,7 @@ else:
     print(f"\n✅ Final decision for {request_id}:")
     print(json.dumps(result.get("result", result), indent=2, ensure_ascii=False))
 
-    # If you want to print only key summary info:
+    # Optional: print only key summary
     decision = result.get("result", {})
     msg = decision.get("message", "No message")
     print(f"\nSummary: {msg}")
