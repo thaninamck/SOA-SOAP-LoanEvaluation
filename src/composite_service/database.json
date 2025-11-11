@@ -1,0 +1,739 @@
+{
+  "requests": {
+    "REQ_20251110001024_1709": {
+      "text": "\nNom du Client: Jeanne Petit\nAdresse: 5 Rue des Fleurs, Paris\nEmail: jeanne.petit@email.com\nNuméro de Téléphone: +33600111222\nMontant du Prêt Demandé: 300000\nRevenu Mensuel: 2000\nDépenses Mensuelles: 1500\nDescription de la Propriété: Petit appartement ancien, nécessite quelques travaux, proche d'une route passante.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T00:10:24.466221",
+      "last_update": "2025-11-10T00:10:24.632945",
+      "result": {
+        "approved": false,
+        "interest_rate": 5.1,
+        "loan_amount": 300000.0,
+        "risk_details": {
+          "credit_score": 51.09,
+          "loan_amount": 300000.0,
+          "property_value": 742047.63,
+          "loan_to_value": 0.4,
+          "debt_to_income": 1.5,
+          "monthly_savings": 500.0,
+          "employment_stable": true,
+          "risk_score": 47.57,
+          "default_probability": 52.43
+        },
+        "reasons": [
+          "Debt-to-Income ratio (1.50) is higher than the recommended maximum (0.5)."
+        ],
+        "recommendations": [
+          "Try to increase your income or reduce your monthly expenses to improve your debt ratio."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110001030_8976": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T00:10:30.132186",
+      "last_update": "2025-11-10T00:10:30.242265",
+      "result": {
+        "approved": true,
+        "interest_rate": 4.13,
+        "loan_amount": 200000.0,
+        "risk_details": {
+          "credit_score": 65.67,
+          "loan_amount": 200000.0,
+          "property_value": 1360952.38,
+          "loan_to_value": 0.15,
+          "debt_to_income": 0.31,
+          "monthly_savings": 5000.0,
+          "employment_stable": true,
+          "risk_score": 71.85,
+          "default_probability": 28.15
+        },
+        "reasons": [
+          "Applicant meets institutional risk and policy requirements."
+        ],
+        "recommendations": [
+          "Maintain your strong financial profile and responsible credit behavior."
+        ],
+        "message": "✅ Approved"
+      }
+    },
+    "REQ_20251110001034_1775": {
+      "text": "\nNom du Client: Alice Dupont\nAdresse: 12 rue des Lilas, Paris\nEmail: alice.dupont@email.com\nNuméro de Téléphone: +33678912345\nMontant du Prêt Demandé: 180000\nRevenu Mensuel: 4200\nDépenses Mensuelles: 1200\nDescription de la Propriété: Appartement de 75m² situé dans un quartier calme, proche du centre-ville, bien entretenu.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T00:10:34.288745",
+      "last_update": "2025-11-10T00:10:34.453652",
+      "result": {
+        "approved": true,
+        "interest_rate": 4.48,
+        "loan_amount": 180000.0,
+        "risk_details": {
+          "credit_score": 55.69,
+          "loan_amount": 180000.0,
+          "property_value": 895187.91,
+          "loan_to_value": 0.2,
+          "debt_to_income": 0.43,
+          "monthly_savings": 3000.0,
+          "employment_stable": true,
+          "risk_score": 62.96,
+          "default_probability": 37.04
+        },
+        "reasons": [
+          "Applicant meets institutional risk and policy requirements."
+        ],
+        "recommendations": [
+          "Maintain your strong financial profile and responsible credit behavior."
+        ],
+        "message": "✅ Approved"
+      }
+    },
+    "REQ_20251110001049_4849": {
+      "text": "\nNom du Client: Julien Martin\nAdresse: 58 Rue du Lac, Bordeaux\nEmail: julien.martin@email.com\nNuméro de Téléphone: +33666778899\nMontant du Prêt Demandé: 400000\nRevenu Mensuel: 5000\nDépenses Mensuelles: 2500\nDescription de la Propriété: Maison ancienne à rénover de 150m² située en périphérie de la ville.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T00:10:49.066509",
+      "last_update": "2025-11-10T00:10:49.231212",
+      "result": {
+        "approved": false,
+        "interest_rate": 4.99,
+        "loan_amount": 400000.0,
+        "risk_details": {
+          "credit_score": 51.16,
+          "loan_amount": 400000.0,
+          "property_value": 934264.26,
+          "loan_to_value": 0.43,
+          "debt_to_income": 0.8,
+          "monthly_savings": 2500.0,
+          "employment_stable": true,
+          "risk_score": 50.13,
+          "default_probability": 49.87
+        },
+        "reasons": [
+          "Debt-to-Income ratio (0.80) is higher than the recommended maximum (0.5)."
+        ],
+        "recommendations": [
+          "Try to increase your income or reduce your monthly expenses to improve your debt ratio."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110001100_3259": {
+      "text": "\nNom du Client: Sophie Durand\nAdresse: 10 Boulevard Victor Hugo, Montpellier\nEmail: sophie.durand@email.com\nNuméro de Téléphone: +33699112233\nMontant du Prêt Demandé: 150000\nRevenu Mensuel: 7200\nDépenses Mensuelles: 1800\nDescription de la Propriété: Appartement moderne de 90m² avec balcon et parking, situé en centre-ville, récemment rénové.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T00:11:00.425930",
+      "last_update": "2025-11-10T00:11:00.587388",
+      "result": {
+        "approved": true,
+        "interest_rate": 4.47,
+        "loan_amount": 150000.0,
+        "risk_details": {
+          "credit_score": 60.38,
+          "loan_amount": 150000.0,
+          "property_value": 300827.86,
+          "loan_to_value": 0.5,
+          "debt_to_income": 0.21,
+          "monthly_savings": 5400.0,
+          "employment_stable": true,
+          "risk_score": 63.13,
+          "default_probability": 36.87
+        },
+        "reasons": [
+          "Applicant meets institutional risk and policy requirements."
+        ],
+        "recommendations": [
+          "Maintain your strong financial profile and responsible credit behavior."
+        ],
+        "message": "✅ Approved"
+      }
+    },
+    "REQ_20251110001535_5672": {
+      "text": "\nNom du Client: Sophie Durand\nAdresse: 10 Boulevard Victor Hugo, Montpellier\nEmail: sophie.durand@email.com\nNuméro de Téléphone: +33699112233\nMontant du Prêt Demandé: 150000\nRevenu Mensuel: 7200\nDépenses Mensuelles: 1800\nDescription de la Propriété: Appartement moderne de 90m² avec balcon et parking, situé en centre-ville, récemment rénové.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T00:15:35.552269",
+      "last_update": "2025-11-10T00:15:35.755861",
+      "result": {
+        "approved": false,
+        "interest_rate": 4.93,
+        "loan_amount": 150000.0,
+        "risk_details": {
+          "credit_score": 40.65,
+          "loan_amount": 150000.0,
+          "property_value": 317759.24,
+          "loan_to_value": 0.47,
+          "debt_to_income": 0.21,
+          "monthly_savings": 5400.0,
+          "employment_stable": true,
+          "risk_score": 51.82,
+          "default_probability": 48.18
+        },
+        "reasons": [
+          "Credit score (40.65) is below the minimum threshold (50)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110001621_3857": {
+      "text": "\nNom du Client: Alice Dupont\nAdresse: 12 rue des Lilas, Paris\nEmail: alice.dupont@email.com\nNuméro de Téléphone: +33678912345\nMontant du Prêt Demandé: 180000\nRevenu Mensuel: 4200\nDépenses Mensuelles: 1200\nDescription de la Propriété: Appartement de 75m² situé dans un quartier calme, proche du centre-ville, bien entretenu.\n",
+      "status": "processing",
+      "timestamp": "2025-11-10T00:16:22.002230",
+      "last_update": "2025-11-10T00:16:22.002230",
+      "result": null
+    },
+    "REQ_20251110001759_1299": {
+      "text": "\nNom du Client: Jeanne Petit\nAdresse: 5 Rue des Fleurs, Paris\nEmail: jeanne.petit@email.com\nNuméro de Téléphone: +33600111222\nMontant du Prêt Demandé: 300000\nRevenu Mensuel: 2000\nDépenses Mensuelles: 1500\nDescription de la Propriété: Petit appartement ancien, nécessite quelques travaux, proche d'une route passante.\n",
+      "status": "processing",
+      "timestamp": "2025-11-10T00:17:59.660168",
+      "last_update": "2025-11-10T00:17:59.660168",
+      "result": null
+    },
+    "REQ_20251110001848_8303": {
+      "text": "\nNom du Client: Jeanne Petit\nAdresse: 5 Rue des Fleurs, Paris\nEmail: jeanne.petit@email.com\nNuméro de Téléphone: +33600111222\nMontant du Prêt Demandé: 300000\nRevenu Mensuel: 2000\nDépenses Mensuelles: 1500\nDescription de la Propriété: Petit appartement ancien, nécessite quelques travaux, proche d'une route passante.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T00:18:48.235127",
+      "last_update": "2025-11-10T00:18:48.419107",
+      "result": {
+        "approved": false,
+        "interest_rate": 5.65,
+        "loan_amount": 300000.0,
+        "risk_details": {
+          "credit_score": 26.21,
+          "loan_amount": 300000.0,
+          "property_value": 871883.55,
+          "loan_to_value": 0.34,
+          "debt_to_income": 1.5,
+          "monthly_savings": 500.0,
+          "employment_stable": true,
+          "risk_score": 33.84,
+          "default_probability": 66.16
+        },
+        "reasons": [
+          "Credit score (26.21) is below the minimum threshold (50).",
+          "Debt-to-Income ratio (1.50) is higher than the recommended maximum (0.5).",
+          "Global risk score (33.84) is too low, indicating a high probability of default."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests.",
+          "Try to increase your income or reduce your monthly expenses to improve your debt ratio.",
+          "Work on improving your financial stability and credit behavior before reapplying."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110001852_96": {
+      "text": "\nNom du Client: Alice Dupont\nAdresse: 12 rue des Lilas, Paris\nEmail: alice.dupont@email.com\nNuméro de Téléphone: +33678912345\nMontant du Prêt Demandé: 180000\nRevenu Mensuel: 4200\nDépenses Mensuelles: 1200\nDescription de la Propriété: Appartement de 75m² situé dans un quartier calme, proche du centre-ville, bien entretenu.\n",
+      "status": "processing",
+      "timestamp": "2025-11-10T00:18:52.220612",
+      "last_update": "2025-11-10T00:18:52.220612",
+      "result": null
+    },
+    "REQ_20251110002507_3985": {
+      "text": "\nNom du Client: Alice Dupont\nAdresse: 12 rue des Lilas, Paris\nEmail: alice.dupont@email.com\nNuméro de Téléphone: +33678912345\nMontant du Prêt Demandé: 180000\nRevenu Mensuel: 4200\nDépenses Mensuelles: 1200\nDescription de la Propriété: Appartement de 75m² situé dans un quartier calme, proche du centre-ville, bien entretenu.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T00:25:07.213051",
+      "last_update": "2025-11-10T00:25:07.425098",
+      "result": {
+        "approved": false,
+        "interest_rate": 4.85,
+        "loan_amount": 180000.0,
+        "risk_details": {
+          "credit_score": 49.06,
+          "loan_amount": 180000.0,
+          "property_value": 390965.32,
+          "loan_to_value": 0.46,
+          "debt_to_income": 0.43,
+          "monthly_savings": 3000.0,
+          "employment_stable": true,
+          "risk_score": 53.8,
+          "default_probability": 46.2
+        },
+        "reasons": [
+          "Credit score (49.06) is below the minimum threshold (50)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110002509_2558": {
+      "text": "\nNom du Client: Jeanne Petit\nAdresse: 5 Rue des Fleurs, Paris\nEmail: jeanne.petit@email.com\nNuméro de Téléphone: +33600111222\nMontant du Prêt Demandé: 300000\nRevenu Mensuel: 2000\nDépenses Mensuelles: 1500\nDescription de la Propriété: Petit appartement ancien, nécessite quelques travaux, proche d'une route passante.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T00:25:09.862626",
+      "last_update": "2025-11-10T00:25:10.025024",
+      "result": {
+        "approved": false,
+        "interest_rate": 5.55,
+        "loan_amount": 300000.0,
+        "risk_details": {
+          "credit_score": 32.56,
+          "loan_amount": 300000.0,
+          "property_value": 724962.35,
+          "loan_to_value": 0.41,
+          "debt_to_income": 1.5,
+          "monthly_savings": 500.0,
+          "employment_stable": true,
+          "risk_score": 36.26,
+          "default_probability": 63.74
+        },
+        "reasons": [
+          "Credit score (32.56) is below the minimum threshold (50).",
+          "Debt-to-Income ratio (1.50) is higher than the recommended maximum (0.5)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests.",
+          "Try to increase your income or reduce your monthly expenses to improve your debt ratio."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110002516_9548": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T00:25:16.059761",
+      "last_update": "2025-11-10T00:25:16.249559",
+      "result": {
+        "approved": false,
+        "interest_rate": 4.56,
+        "loan_amount": 200000.0,
+        "risk_details": {
+          "credit_score": 47.69,
+          "loan_amount": 200000.0,
+          "property_value": 1320147.81,
+          "loan_to_value": 0.15,
+          "debt_to_income": 0.31,
+          "monthly_savings": 5000.0,
+          "employment_stable": true,
+          "risk_score": 60.97,
+          "default_probability": 39.03
+        },
+        "reasons": [
+          "Credit score (47.69) is below the minimum threshold (50)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110010744_4843": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 18 rue des Oliviers, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33612345678\nMontant du Prêt Demandé: 250000\nRevenu Mensuel: 2200\nDépenses Mensuelles: 1900\nDescription de la Propriété: Appartement ancien de 60m² à Lyon.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:07:44.980771",
+      "last_update": "2025-11-10T01:07:45.269142",
+      "result": {
+        "approved": false,
+        "interest_rate": 5.61,
+        "loan_amount": 250000.0,
+        "risk_details": {
+          "credit_score": 29.76,
+          "loan_amount": 250000.0,
+          "property_value": 625662.56,
+          "loan_to_value": 0.4,
+          "debt_to_income": 1,
+          "monthly_savings": 0,
+          "employment_stable": true,
+          "risk_score": 34.86,
+          "default_probability": 65.14
+        },
+        "reasons": [
+          "Credit score (29.76) is below the minimum threshold (50).",
+          "Debt-to-Income ratio (1.00) is higher than the recommended maximum (0.5).",
+          "Global risk score (34.86) is too low, indicating a high probability of default."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests.",
+          "Try to increase your income or reduce your monthly expenses to improve your debt ratio.",
+          "Work on improving your financial stability and credit behavior before reapplying."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110010755_4843": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 18 rue des Oliviers, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33612345678\nMontant du Prêt Demandé: 250000\nRevenu Mensuel: 2200\nDépenses Mensuelles: 1900\nDescription de la Propriété: Appartement ancien de 60m² à Lyon.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:07:55.363381",
+      "last_update": "2025-11-10T01:07:55.648242",
+      "result": {
+        "approved": false,
+        "interest_rate": 5.59,
+        "loan_amount": 250000.0,
+        "risk_details": {
+          "credit_score": 29.76,
+          "loan_amount": 250000.0,
+          "property_value": 662772.28,
+          "loan_to_value": 0.38,
+          "debt_to_income": 1,
+          "monthly_savings": 0,
+          "employment_stable": true,
+          "risk_score": 35.31,
+          "default_probability": 64.69
+        },
+        "reasons": [
+          "Credit score (29.76) is below the minimum threshold (50).",
+          "Debt-to-Income ratio (1.00) is higher than the recommended maximum (0.5)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests.",
+          "Try to increase your income or reduce your monthly expenses to improve your debt ratio."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110010842_2009": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:08:42.202620",
+      "last_update": "2025-11-10T01:08:42.304054",
+      "result": {
+        "approved": false,
+        "interest_rate": 5.04,
+        "loan_amount": 200000.0,
+        "risk_details": {
+          "credit_score": 46.37,
+          "loan_amount": 200000.0,
+          "property_value": 1036337.8,
+          "loan_to_value": 0.19,
+          "debt_to_income": 1,
+          "monthly_savings": 0,
+          "employment_stable": true,
+          "risk_score": 48.96,
+          "default_probability": 51.04
+        },
+        "reasons": [
+          "Credit score (46.37) is below the minimum threshold (50).",
+          "Debt-to-Income ratio (1.00) is higher than the recommended maximum (0.5)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests.",
+          "Try to increase your income or reduce your monthly expenses to improve your debt ratio."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110011007_8610": {
+      "text": "\nNom du Client: Jeanne Petit\nAdresse: 5 Rue des Fleurs, Paris\nEmail: jeanne.petit@email.com\nNuméro de Téléphone: +33600111222\nMontant du Prêt Demandé: 300000\nRevenu Mensuel: 2000\nDépenses Mensuelles: 1500\nDescription de la Propriété: Petit appartement ancien, nécessite quelques travaux, proche d'une route passante.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:10:07.774317",
+      "last_update": "2025-11-10T01:10:07.999434",
+      "result": {
+        "approved": false,
+        "interest_rate": 5.22,
+        "loan_amount": 300000.0,
+        "risk_details": {
+          "credit_score": 52.66,
+          "loan_amount": 300000.0,
+          "property_value": 494148.06,
+          "loan_to_value": 0.61,
+          "debt_to_income": 1.5,
+          "monthly_savings": 500.0,
+          "employment_stable": true,
+          "risk_score": 44.45,
+          "default_probability": 55.55
+        },
+        "reasons": [
+          "Debt-to-Income ratio (1.50) is higher than the recommended maximum (0.5)."
+        ],
+        "recommendations": [
+          "Try to increase your income or reduce your monthly expenses to improve your debt ratio."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110011013_4840": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:10:13.135448",
+      "last_update": "2025-11-10T01:10:13.239962",
+      "result": {
+        "approved": false,
+        "interest_rate": 4.66,
+        "loan_amount": 200000.0,
+        "risk_details": {
+          "credit_score": 45.25,
+          "loan_amount": 200000.0,
+          "property_value": 1014563.95,
+          "loan_to_value": 0.2,
+          "debt_to_income": 0.31,
+          "monthly_savings": 5000.0,
+          "employment_stable": true,
+          "risk_score": 58.59,
+          "default_probability": 41.41
+        },
+        "reasons": [
+          "Credit score (45.25) is below the minimum threshold (50)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110011457_8610": {
+      "text": "\nNom du Client: Jeanne Petit\nAdresse: 5 Rue des Fleurs, Paris\nEmail: jeanne.petit@email.com\nNuméro de Téléphone: +33600111222\nMontant du Prêt Demandé: 300000\nRevenu Mensuel: 2000\nDépenses Mensuelles: 1500\nDescription de la Propriété: Petit appartement ancien, nécessite quelques travaux, proche d'une route passante.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:14:57.769431",
+      "last_update": "2025-11-10T01:14:57.882356",
+      "result": {
+        "approved": false,
+        "interest_rate": 5.06,
+        "loan_amount": 300000.0,
+        "risk_details": {
+          "credit_score": 52.66,
+          "loan_amount": 300000.0,
+          "property_value": 747891.02,
+          "loan_to_value": 0.4,
+          "debt_to_income": 1.5,
+          "monthly_savings": 500.0,
+          "employment_stable": true,
+          "risk_score": 48.57,
+          "default_probability": 51.43
+        },
+        "reasons": [
+          "Debt-to-Income ratio (1.50) is higher than the recommended maximum (0.5)."
+        ],
+        "recommendations": [
+          "Try to increase your income or reduce your monthly expenses to improve your debt ratio."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110011601_4840": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:16:01.407041",
+      "last_update": "2025-11-10T01:16:01.524353",
+      "result": {
+        "approved": false,
+        "interest_rate": 4.61,
+        "loan_amount": 200000.0,
+        "risk_details": {
+          "credit_score": 45.25,
+          "loan_amount": 200000.0,
+          "property_value": 1424576.03,
+          "loan_to_value": 0.14,
+          "debt_to_income": 0.31,
+          "monthly_savings": 5000.0,
+          "employment_stable": true,
+          "risk_score": 59.73,
+          "default_probability": 40.27
+        },
+        "reasons": [
+          "Credit score (45.25) is below the minimum threshold (50)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110011649_1328": {
+      "text": "\nNom du Client: Alice Dupont\nAdresse: 12 rue des Lilas, Paris\nEmail: alice.dupont@email.com\nNuméro de Téléphone: +33678912345\nMontant du Prêt Demandé: 180000\nRevenu Mensuel: 4200\nDépenses Mensuelles: 1200\nDescription de la Propriété: Appartement de 75m² situé dans un quartier calme, proche du centre-ville, bien entretenu.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:16:49.060383",
+      "last_update": "2025-11-10T01:16:49.136096",
+      "result": {
+        "approved": false,
+        "interest_rate": 5.05,
+        "loan_amount": 180000.0,
+        "risk_details": {
+          "credit_score": 39.17,
+          "loan_amount": 180000.0,
+          "property_value": 430540.07,
+          "loan_to_value": 0.42,
+          "debt_to_income": 0.43,
+          "monthly_savings": 3000.0,
+          "employment_stable": true,
+          "risk_score": 48.71,
+          "default_probability": 51.29
+        },
+        "reasons": [
+          "Credit score (39.17) is below the minimum threshold (50)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110011701_1328": {
+      "text": "\nNom du Client: Alice Dupont\nAdresse: 12 rue des Lilas, Paris\nEmail: alice.dupont@email.com\nNuméro de Téléphone: +33678912345\nMontant du Prêt Demandé: 180000\nRevenu Mensuel: 4200\nDépenses Mensuelles: 1200\nDescription de la Propriété: Appartement de 75m² situé dans un quartier calme, proche du centre-ville, bien entretenu.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:17:01.944929",
+      "last_update": "2025-11-10T01:17:02.095593",
+      "result": {
+        "approved": false,
+        "interest_rate": 4.86,
+        "loan_amount": 180000.0,
+        "risk_details": {
+          "credit_score": 39.17,
+          "loan_amount": 180000.0,
+          "property_value": 1009064.61,
+          "loan_to_value": 0.18,
+          "debt_to_income": 0.43,
+          "monthly_savings": 3000.0,
+          "employment_stable": true,
+          "risk_score": 53.51,
+          "default_probability": 46.49
+        },
+        "reasons": [
+          "Credit score (39.17) is below the minimum threshold (50)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110011717_9077": {
+      "text": "\nNom du Client: Sophie Durand\nAdresse: 10 Boulevard Victor Hugo, Montpellier\nEmail: sophie.durand@email.com\nNuméro de Téléphone: +33699112233\nMontant du Prêt Demandé: 150000\nRevenu Mensuel: 7200\nDépenses Mensuelles: 1800\nDescription de la Propriété: Appartement moderne de 90m² avec balcon et parking, situé en centre-ville, récemment rénové.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:17:17.522217",
+      "last_update": "2025-11-10T01:17:17.609000",
+      "result": {
+        "approved": false,
+        "interest_rate": 4.7,
+        "loan_amount": 150000.0,
+        "risk_details": {
+          "credit_score": 44.13,
+          "loan_amount": 150000.0,
+          "property_value": 515832.55,
+          "loan_to_value": 0.29,
+          "debt_to_income": 0.21,
+          "monthly_savings": 5400.0,
+          "employment_stable": true,
+          "risk_score": 57.54,
+          "default_probability": 42.46
+        },
+        "reasons": [
+          "Credit score (44.13) is below the minimum threshold (50)."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110011904_1998": {
+      "text": "\nNom du Client: Jeanne Petit\nAdresse: 5 Rue des Fleurs, Paris\nEmail: jeanne.petit@email.com\nNuméro de Téléphone: +33600111222\nMontant du Prêt Demandé: 300000\nRevenu Mensuel: 2000\nDépenses Mensuelles: 1500\nDescription de la Propriété: Petit appartement ancien, nécessite quelques travaux, proche d'une route passante.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:19:04.429091",
+      "last_update": "2025-11-10T01:19:04.554414",
+      "result": {
+        "approved": false,
+        "interest_rate": 5.63,
+        "loan_amount": 300000.0,
+        "risk_details": {
+          "credit_score": 34.53,
+          "loan_amount": 300000.0,
+          "property_value": 527175.27,
+          "loan_to_value": 0.57,
+          "debt_to_income": 1.5,
+          "monthly_savings": 500.0,
+          "employment_stable": true,
+          "risk_score": 34.34,
+          "default_probability": 65.66
+        },
+        "reasons": [
+          "Credit score (34.53) is below the minimum threshold (40).",
+          "Debt-to-Income ratio (1.50) is higher than the recommended maximum (0.5).",
+          "Global risk score (34.34) is too low, indicating a high probability of default."
+        ],
+        "recommendations": [
+          "Improve your credit score by paying bills on time, reducing outstanding debts, and avoiding new credit requests.",
+          "Try to increase your income or reduce your monthly expenses to improve your debt ratio.",
+          "Work on improving your financial stability and credit behavior before reapplying."
+        ],
+        "message": "❌ Rejected"
+      }
+    },
+    "REQ_20251110011909_2100": {
+      "text": "\nNom du Client: Marc Lefevre\nAdresse: 25 Avenue des Sciences, Lyon\nEmail: marc.lefevre@email.com\nNuméro de Téléphone: +33677889900\nMontant du Prêt Demandé: 200000\nRevenu Mensuel: 6500\nDépenses Mensuelles: 1500\nDescription de la Propriété: Maison individuelle récente de 120m² avec jardin, située dans un quartier résidentiel calme. État du bien excellent.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:19:09.106040",
+      "last_update": "2025-11-10T01:19:09.229376",
+      "result": {
+        "approved": true,
+        "interest_rate": 4.16,
+        "loan_amount": 200000.0,
+        "risk_details": {
+          "credit_score": 64.3,
+          "loan_amount": 200000.0,
+          "property_value": 1304051.74,
+          "loan_to_value": 0.15,
+          "debt_to_income": 0.31,
+          "monthly_savings": 5000.0,
+          "employment_stable": true,
+          "risk_score": 70.9,
+          "default_probability": 29.1
+        },
+        "reasons": [
+          "Applicant meets institutional risk and policy requirements."
+        ],
+        "recommendations": [
+          "Maintain your strong financial profile and responsible credit behavior."
+        ],
+        "message": "✅ Approved"
+      }
+    },
+    "REQ_20251110011914_7837": {
+      "text": "\nNom du Client: Sophie Durand\nAdresse: 10 Boulevard Victor Hugo, Montpellier\nEmail: sophie.durand@email.com\nNuméro de Téléphone: +33699112233\nMontant du Prêt Demandé: 150000\nRevenu Mensuel: 7200\nDépenses Mensuelles: 1800\nDescription de la Propriété: Appartement moderne de 90m² avec balcon et parking, situé en centre-ville, récemment rénové.\n",
+      "status": "done",
+      "timestamp": "2025-11-10T01:19:14.065923",
+      "last_update": "2025-11-10T01:19:14.199374",
+      "result": {
+        "approved": true,
+        "interest_rate": 5.12,
+        "loan_amount": 150000.0,
+        "risk_details": {
+          "credit_score": 40.19,
+          "loan_amount": 150000.0,
+          "property_value": 215756.03,
+          "loan_to_value": 0.7,
+          "debt_to_income": 0.21,
+          "monthly_savings": 5400.0,
+          "employment_stable": true,
+          "risk_score": 47.08,
+          "default_probability": 52.92
+        },
+        "reasons": [
+          "Applicant meets institutional risk and policy requirements."
+        ],
+        "recommendations": [
+          "Maintain your strong financial profile and responsible credit behavior."
+        ],
+        "message": "✅ Approved"
+      }
+    },
+    "REQ_20251111090721_7458": {
+      "text": "\nNom du Client: Sophie Durand\nAdresse: 10 Boulevard Victor Hugo, Montpellier\nEmail: sophie.durand@email.com\nNuméro de Téléphone: +33699112233\nMontant du Prêt Demandé: 150000\nRevenu Mensuel: 7200\nDépenses Mensuelles: 1800\nDescription de la Propriété: Appartement moderne de 90m² avec balcon et parking, situé en centre-ville, récemment rénové.\n",
+      "status": "done",
+      "timestamp": "2025-11-11T09:07:21.906178",
+      "last_update": "2025-11-11T09:07:25.085772",
+      "result": {
+        "approved": true,
+        "interest_rate": 4.1,
+        "loan_amount": 150000.0,
+        "risk_details": {
+          "credit_score": 71.31,
+          "loan_amount": 150000.0,
+          "property_value": 414677.48,
+          "loan_to_value": 0.36,
+          "debt_to_income": 0.21,
+          "monthly_savings": 5400.0,
+          "employment_stable": true,
+          "risk_score": 72.43,
+          "default_probability": 27.57
+        },
+        "reasons": [
+          "Applicant meets institutional risk and policy requirements."
+        ],
+        "recommendations": [
+          "Maintain your strong financial profile and responsible credit behavior."
+        ],
+        "message": "✅ Approved"
+      }
+    }
+  }
+}
