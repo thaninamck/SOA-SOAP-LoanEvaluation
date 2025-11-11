@@ -4,7 +4,19 @@ from spyne.protocol.soap import Soap11
 from spyne.server.wsgi import WsgiApplication
 from spyne.util.wsgi_wrapper import run_twisted
 from suds.client import Client
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import sys, logging, json, os, io
+from spyne import Application, rpc, ServiceBase, Unicode
+from spyne.protocol.soap import Soap11
+from spyne.server.wsgi import WsgiApplication
+from spyne.util.wsgi_wrapper import run_twisted
+from suds.client import Client
 
+# Force UTF-8 encoding on Windows
+if sys.platform == "win32":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 # Import utilitaires (robuste pour exécution en package ou directe)
 try:
     from composite_service.utils import (

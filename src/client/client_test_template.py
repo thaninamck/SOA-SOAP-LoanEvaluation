@@ -8,14 +8,11 @@ client = Client(COMPOSITE)
 
 # Approved
 loan_text = """
-Nom du Client: Sophie Durand
-Adresse: 10 Boulevard Victor Hugo, Montpellier
-Email: sophie.durand@email.com
-Numéro de Téléphone: +33699112233
-Montant du Prêt Demandé: 150000
-Revenu Mensuel: 7200
-Dépenses Mensuelles: 1800
-Description de la Propriété: Appartement moderne de 90m² avec balcon et parking, situé en centre-ville, récemment rénové.
+Bonjour, je m'appelle Marie Dupont. 
+J'habite 14 rue Victor Hugo à Lyon.
+Mon email est marie.dupont@email.com et mon téléphone 0612345678.
+Je souhaite un prêt de 250000 euros pour acheter un appartement.
+Mon revenu mensuel est de 3200 euros et mes dépenses sont de 1200 euros.
 """
 
 # # Rejected

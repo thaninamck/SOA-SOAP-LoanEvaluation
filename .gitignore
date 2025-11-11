@@ -69,8 +69,10 @@ instance/
 # Scrapy stuff:
 .scrapy
 
+
 #le fichier de variabes d'envoronnements 
 .env
+
 
 # Sphinx documentation
 docs/_build/
