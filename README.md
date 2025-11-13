@@ -31,10 +31,12 @@ The system processes a client’s loan application through several stages:
 
 ## ⚙️ Architecture Diagram
 
-Figure
+<img width="1083" height="538" alt="image" src="https://github.com/user-attachments/assets/aa6798fe-58a1-4027-8a86-bc592596ecfd" />
+
 
 
 Each service runs as an independent SOAP endpoint and communicates using JSON-encoded payloads over SOAP.
+<img width="1087" height="525" alt="image" src="https://github.com/user-attachments/assets/7752bf9b-f50d-42cc-bf0f-2dc3a3f6e310" />
 
 ---
 
